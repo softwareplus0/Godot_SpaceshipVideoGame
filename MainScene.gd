@@ -1,7 +1,7 @@
 extends Node2D
 
 onready var flagPacked = preload("res://Sprite.tscn")
-onready var screenSize = get_viewport().get_visible_rect().size
+onready var screenSize = self.get_viewport().get_visible_rect().size
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -15,7 +15,7 @@ func _ready():
 		
 		var flag = flagPacked.instance()
 		
-		var newPos = Vector2(screenSize.x, randi() % int(screenSize.y)) # This here sets pos based on the previous X value.
+		var newPos = Vector2(screenSize.x, randi() % int(screenSize.y - (screenSize.y / 2))) # This here sets pos based on the previous X value.
 		
 		##########################
 		
