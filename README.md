@@ -2,4 +2,4 @@
 
 A 2D video game made in Godot where the objective is to dodge asteroids.
 
-![spaceship asteroids image](https://user-images.githubusercontent.com/60022073/93848156-ce8e6380-fc76-11ea-8715-992903123d1a.PNG)
+![asteroids_screenshot](https://user-images.githubusercontent.com/60022073/94982675-6fe4a780-050a-11eb-8e8c-4e16e3a2be31.PNG)
