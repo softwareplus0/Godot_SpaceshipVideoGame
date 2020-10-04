@@ -22,6 +22,7 @@ func _ready():
 		flag.position.x = newPos.x
 		flag.position.y = newPos.y
 		
+		flag.linear_velocity.x = -200
 		
 		get_tree().get_root().add_child(flag)
 		

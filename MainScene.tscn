@@ -25,4 +25,4 @@ position = Vector2( 36, 118 )
 [node name="Projectile" parent="Player" instance=ExtResource( 4 )]
 
 [node name="Sprite" parent="." instance=ExtResource( 2 )]
-position = Vector2( 753, -53 )
+position = Vector2( 748.51, -51.8775 )

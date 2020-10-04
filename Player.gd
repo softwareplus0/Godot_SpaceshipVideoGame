@@ -39,6 +39,8 @@ func _physics_process(delta):
 			new_projectile.position.x = newPos.x
 			new_projectile.position.y = newPos.y
 			
+			new_projectile.linear_velocity.x = 800
+			
 			get_tree().get_root().add_child(new_projectile)
 			
 			end_time = OS.get_ticks_msec()
